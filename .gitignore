@@ -4,8 +4,11 @@
 # Ignore data folder
 data/
 
-# Ignore everything except notebooks
+# Ignore everything by default
 *
+
+# Allow these files/folders
+!.gitignore
+!requirements.txt
 !notebooks/
 !notebooks/**
-!.gitignore
